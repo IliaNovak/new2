@@ -1,0 +1,14 @@
+$(function(){
+	$(".bl3").hover(function(){
+		$(".zt1").animate({opacity:"1"},0);
+		$(".t1").animate({left:"5%"},400);
+		$(".t2").animate({left:"5%"},450);
+		$(".t3").animate({left:"5%"},500);
+	},function(){
+		$(".zt1").animate({opacity:"0"},200);
+		$(".t1").animate({left:"-100%"},400);
+		$(".t2").animate({left:"-100%"},450);
+		$(".t3").animate({left:"-100%"},500);
+	}
+	);
+})
