@@ -1,1 +1,3 @@
+var i = 78;
+print(i);
 print("welcom");
